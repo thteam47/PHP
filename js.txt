@@ -1,0 +1,92 @@
+bootstrap
+menu 
+navbar:toggler
+slide: carousel
+đứng yên
+position: fixed;
+javascript
+1. var x= document.querySelectorAll('.  '); //lấy danh dách các phần tử thẻ
+x.classList.remove(''); //xóa thẻ
+x.classList.add(''); //thêm thẻ
+x.classList.toggle(''); //luân phiên thẻ
+
+2. document.ađEventListener('DOCContentLoađe',function(){
+	//code
+
+	var x = document.getElementsById('');
+	x.onclick = function(){
+			
+}
+
+},false);
+
+3. effect
+.  {
+	animation: teneffect 2s forwards;
+	
+}
+@-webkit-keyframes teneffect {
+	from {transform: translateX(0);}
+	to {transform: translateX(400);}
+
+	//
+	100% {opacity:100%;}
+	0% {opacity:0%;}
+
+}
+
+4. độ ưu tiên css
+!important;
+
+5. css
+menu
+div bố {
+	position: relative;
+	float: right;
+	margin-right:200px;
+}
+div con {
+	positon: absolute;
+	top: 20px;
+	right: 0px;
+	width: 200px;
+}
+6. tạo trỏ xuống menu
+.div con:after {
+	content: "";
+	position: absolute;
+	top: -20px;
+	width:0;
+	height: 0;
+	border: 11px;
+	border-bottom-color: white;
+	right: 8px;
+}
+7. css 
+chuột hình bàn tay
+cursor: pointer;
+ẩn
+visibility: hidden;
+
+8. get thuộc tính
+
+var tt = this.getAttribute('');
+9. ẩn thanh cuộn ngang
+overflow-x: hidden;
+10. hiệu ứng chuyển
+transition: cubic-bezier () 1.2s;
+
+11. cuộn chuột
+window.addEventListener('scroll', function(){
+
+	//code
+});
+Vị trí cuộn
+window.pageYOffset;
+12. css
+bỏ gạch chân, click vào còn gạch chân
+
+.  a:actuve,  .   a:visited(
+	text-decoration: none;
+)
+13
